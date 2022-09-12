@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 550px;
+  margin: 0 auto;
+  padding: 10px 10px;
+  background-color: #fff;
+}
+
+/*Header style */
+
+header {
+  height: 330px;
+  margin-bottom: 30px;
+}
+
+nav {
+  width: 550px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+}
+
+.logo {
+  max-width: 82px;
+}
+
+.logo img {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.wrapper {
+  width: 395px;
+  margin: 0 auto;
+}
+
+.wrapper_img {
+  width: 100%;
+  padding: 25px 0px;
+}
+
+/*Main's style*/
+
+.main {
+  height: 120px;
+  padding-left: 25px;
+}
+
+.main_title {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.main_text {
+  width: 320px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #222;
+}
+
+.slider {
+  display: flex;
+  align-items: flex-start;
+  list-style: none;
+  height: 302px;
+  margin-top: 50px;
+  flex-wrap: nowrap;
+}
+
+.slider .slider_item {
+  margin-right: 15px;
+  max-width: 177px;
+  position: relative;
+}
+
+.slider_item .item_img {
+  width: 176px;
+  height: 235px;
+  border-radius: 9px;
+}
+
+.item_info {
+  margin-top: 10px;
+  color:#222;
+}
+
+.item_txt {
+  font-size: 12px;
+  line-height: 13px;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+.item_local {
+  color: #918E9B;
+}
+
+.rating {
+  padding-top: 5px;
+  position: relative;
+  margin-left: 15px;
+  margin-bottom: -8px;
+}
+
+.rating::before{
+  position: absolute;
+  content: " ";
+  width: 14px;
+  height: 14px;
+  background-image: url(./assets/star.svg);
+  background-repeat: no-repeat;
+  left: -15px;
+}
+
+/* .slider:first-child::before{
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 20px;
+  background-image: url(./assets/sold.svg);
+  background-repeat: no-repeat;
+} */
+
+/* .slider_item::before {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 20px;
+  background-image: url(./assets/sold.svg);
+  background-repeat: no-repeat;
+} */
+
